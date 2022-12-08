@@ -1,12 +1,15 @@
 #include <stdio.h>
 
-int main()
+/**
+ *main - Entry point
+ *
+ *Return: Always 0 (Success)
+ */
+
+int main(void)
 {
 
-  char eff_arr = "Programming is like building a multilingual puzzle";
+puts("Programming is like building a multilingual puzzle\n");
 
-  puts(eff_arr);
-
-  return 0
-
+return (0);
 }
