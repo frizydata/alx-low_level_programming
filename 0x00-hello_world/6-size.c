@@ -10,16 +10,11 @@ main(void)
 int main(void)
 {
 
-char c;
-int i;
-long int li;
-long long int lli;
-float f;
-printf("Size of char: %lu byte(s) \n", sizeof(c));
-printf("Size of int: %lu bytes(s) \n", sizeof(i));
-printf("Size of long int: %lu bytes(s) \n" sizeof(li));
-printf("Size of long long int: %lu (bytes) \n", sizeof(lli));
-printf("Size of float: %lu byte(s)\n", sizeof(f));
+printf("Size of char: %i byte(s) \n", sizeof(char));
+printf("Size of int: %i bytes(s) \n", sizeof(int));
+printf("Size of long int: %i bytes(s) \n" sizeof(long int));
+printf("Size of long long int: %i (bytes) \n", sizeof(long long int));
+printf("Size of float: %i byte(s)\n", sizeof(float));
 
 return (0);
 
