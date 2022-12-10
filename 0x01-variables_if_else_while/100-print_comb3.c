@@ -6,24 +6,23 @@
 
 int main(void)
 {
-	int i;
-	int ii;
-	i = 0;
+	int n, m;
 
-	while (i <= 9)
+	for (n = 48; n <= 56; n++)
 	{
-		ii = 0;
-
-		while (ii <=9)
+		for (m = 49; m <= 57; m++)
 		{
-			putchar(i +'0');
-			putchar(ii +'0');
-			ii++;
-			putchar(',');
-			putchar(' ');
+			if (m > n)
+			{
+				putchar(n);
+				putchar(m);
+				if (n != 56 || m != 57)
+				{
+					putchar(',');
+					putchar(' ');
+				}
+			}
 		}
-
-		i++;
 	}
 
 	putchar('\n');
