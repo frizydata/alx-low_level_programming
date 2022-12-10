@@ -8,10 +8,10 @@ int main(void)
 {
 	int i;
 	int ii;
-	
-	for (i = 0; i <= 99; i++)
+
+	for (i = 0; i < 100; i++)
 	{
-		for (ii = 0; ii <= 99; ii++)
+		for (ii = 0; ii < 100; ii++)
 		{
 			if (i < ii)
 			{
@@ -23,14 +23,14 @@ int main(void)
 
 				if (i != 98 || ii != 99)
 				{
-					putchar('.');
+					putchar(',');
 					putchar(' ');
 				}
 			}
 		}
 	}
-	
+
 	putchar('\n');
 
-	return(0);
+	return (0);
 }
