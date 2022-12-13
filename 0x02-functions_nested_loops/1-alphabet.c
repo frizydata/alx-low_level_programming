@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 /**
  * print_alphabet - This program prints alphabeth is lowercase
  * Return: Always 0 (Succress)
