@@ -25,3 +25,9 @@ void repeat_alphabeth(void)
 	}
 
 }
+
+int main(void)
+{
+	repeat_alphabeth();
+	return (0);
+}
