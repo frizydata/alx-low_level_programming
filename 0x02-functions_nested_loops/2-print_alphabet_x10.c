@@ -1,6 +1,6 @@
-#include <stdio.h>
+#include <main.h>
 /**
- * main - This function prints alphabeths ten times in lowercase
+ * repeat_alphabet - This function prints alphabeths ten times in lowercase
  * Return - Always 0 (Success)
  */
 
@@ -24,10 +24,4 @@ void repeat_alphabeth(void)
 
 	}
 
-}
-
-int main(void)
-{
-	repeat_alphabeth();
-	return (0);
 }
