@@ -1,4 +1,4 @@
-#include "main"
+#include "main.h"
 /**
  * jack_bauer - Prints every minute of the day
  * Return: Always 0 (Success)
