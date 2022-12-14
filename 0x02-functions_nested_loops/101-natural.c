@@ -17,15 +17,15 @@ int main(void)
 	{
 		if ((i % 3) == 0)
 		{
-			a = a + 1;
+			a = a + i;
 		}
 		else if ((i % 5) == 0)
 		{
-			b = b + 1;
+			b = b + i;
 		}
 	}
 	c = a + b;
 	printf("%lu\n", c);
-	
+
 	return (0);
 }
