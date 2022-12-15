@@ -5,7 +5,7 @@
  * Return: Always 1 if uppercase and 0 otherwise
  */
 
-int _isupper(int c);
+int _isupper(int c)
 {
 	return ((c > 64) && (c < 91));
 }
