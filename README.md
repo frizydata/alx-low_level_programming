@@ -1,1 +1,1 @@
-Introduction to C Programming
+Debugging in C
