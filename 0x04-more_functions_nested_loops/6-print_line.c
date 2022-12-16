@@ -1,5 +1,5 @@
 #include "main.h"
-/*
+/**
  * print_line - prints a line
  *
  * Return: Always 0
