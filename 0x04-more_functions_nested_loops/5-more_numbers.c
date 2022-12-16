@@ -10,7 +10,6 @@ void more_numbers(void)
 	i = 0;
 	while (i < 10)
 	{
-		j = 0;
 		for (j = 0; j <= 14; j++)
 		{
 			if (j >= 10)
@@ -22,5 +21,4 @@ void more_numbers(void)
 		_putchar('\n');
 		i++;
 	}
-
 }
