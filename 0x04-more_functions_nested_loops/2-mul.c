@@ -1,5 +1,5 @@
 #include "main.h"
-/*
+/**
  * mul - multiplies two integers
  * @a: integer to be multipled with b
  * @b: integer to be multipled with a
@@ -8,7 +8,5 @@
 
 int mul(int a, int b)
 {
-	int c;
-	c = a * b;
-	return (c);
+	return (a * b);
 }
