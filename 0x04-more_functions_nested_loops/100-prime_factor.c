@@ -30,7 +30,7 @@ int main(void)
 	{
 		m = n;
 	}
-	printf("%d\n", m);
+	printf("%ld\n", m);
 
 	return (0);
 }
