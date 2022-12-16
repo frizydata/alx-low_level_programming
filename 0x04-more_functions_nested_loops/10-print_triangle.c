@@ -15,4 +15,4 @@ void print_triangle(int size)
 	{
 		int i, j;
 
-		for (i =
+		for (i = 
