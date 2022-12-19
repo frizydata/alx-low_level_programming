@@ -1,4 +1,4 @@
-#include "maim.h"
+#include "main.h"
 
 /**
  * reset_to_98 - This function resets the value of n to 98
