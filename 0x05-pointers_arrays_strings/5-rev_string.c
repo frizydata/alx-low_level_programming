@@ -11,12 +11,12 @@ void rev_string(char *s)
 	char *str, temp;
 
 	while (c >= 0)
-	{ 
+	{
 		if (s[c] == '\0')
 			break;
 		c++;
 	}
-	str =s;
+	str = s;
 
 	for (i = 0; i < (c - 1); i++)
 	{
