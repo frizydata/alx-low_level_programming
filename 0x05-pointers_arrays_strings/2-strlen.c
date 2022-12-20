@@ -7,7 +7,7 @@
 
 int _strlen(char *s)
 {
-	int f = 0;
+	int p = 0;
 	/* increment until the last char is NULL,\0*/
 	while (*(s + p) != 0)
 	{
