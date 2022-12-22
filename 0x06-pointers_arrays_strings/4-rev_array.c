@@ -17,10 +17,10 @@ void reverse_array(int *a, int n)
 	 * set x to the value of array a,
 	 * y to the first element in the array,
 	 * z to the last element in the array.
-	 * set the first element to the last element 
+	 * set the first element to the last element
 	 * then increment the first (which is last now)
 	 * and decrement the last (which is first now)
-	 * *//
+	 */
 
 	while (y < z)
 	{
