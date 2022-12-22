@@ -23,5 +23,5 @@ int _strcmp(char *s1, char *s2)
 			return (c1 - c2);
 	} while (c1 == c2);
 
-	return (output);
+	return (a - b);
 }
