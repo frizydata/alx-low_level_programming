@@ -19,9 +19,9 @@ int _strcmp(char *s1, char *s2)
 		a = *s1++;
 		b = *s2++;
 
-	if (c1 == '\0')
-		return (c1 - c2);
-	} while (c1 == c2);
+	if (a == '\0')
+		return (a - b);
+	} while (a == b);
 
 	return (a - b);
 }
