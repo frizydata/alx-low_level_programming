@@ -7,13 +7,13 @@
 
 char *string_toupper(char *s)
 {
-	int a;
+	int a = 0;
 
 	while (s[a] != '\0')
 	{
 		if (s[a] > 96 && s[a] < 123)
 		{
-			[i] = s[i] - 32;
+			s[i] = s[i] - 32;
 		}
 
 		i++;
