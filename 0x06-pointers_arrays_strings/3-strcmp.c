@@ -13,32 +13,17 @@
 
 int _strcmp(char *s1, char *s2)
 {
-	int a, output;
-	a = 0;
+	unsigned char a, b;
 
-	/* iterating over s1 until the null*/
-
-	while (s1[i] != '\0' && s2[i] != '\0')
+	do
 	{
-		/**
-		 * comparing s1 and s2, 
-		 * if they differ by a single character,
-		 * stop comparing
-		 */
-		
-		if (s1[i] != s2[i])
-		{
-			/* return the difference between s1 and s2*/
-			output = s1[i] - s2[i];
-			break;
-		}
-		else
-		{
-			/* if they are equal, return 0*/
-			output = s1[i] - s2[i];
-		}
-		i++;
+		a = *s1++;
+		b = *s2++;
+
+		if (c1 == '\0')
+			return (c1 - c2);
 	}
+	while (c1 == c2);
 	
-		return (output);
+	return (output);
 }
