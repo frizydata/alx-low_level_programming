@@ -11,7 +11,7 @@
  * @s1 was greater than the stopping character in @s2
  */
 
-nt _strcmp(char *s1, char *s2)
+int _strcmp(char *s1, char *s2)
 {
 	int a, output;
 	a = 0;
