@@ -5,7 +5,7 @@
  * @dest: The first string to be iterated
  * @src: The second string to concatenate dest, not null-terminated
  * @n: bytes of src
- * @Return: Pointer to resultng string dest
+ * Return: Pointer to resultng string dest
  */
 char *_strncat(char *dest, char *src, int n)
 {
