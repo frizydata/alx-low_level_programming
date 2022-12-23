@@ -17,14 +17,15 @@ char *cap_string(char *s)
 	c++;
 	while (s[c] != '\0')
 	{
-		for (i = 0; i = sep_words; i++)
+		for (i = 0; i < 13; i++)
 		{
 			if ((s[c] >= 97) && (s[c] <= 122))
 			{
-				s[c] = s[c] - 32;
+				s[c + 1] = s[c + 1] - 32;
 			}
 			break;
 		}
+		c++;
 	}
 	return (s);
 }
