@@ -13,14 +13,14 @@ char *leet(char *s)
 	int capital_letters[] = {65, 69, 79, 84, 76};
 	int leet_style[] = {52, 51, 48, 55, 49};
 
-	while (s[a] != '\0')
+	while (s[b] != '\0')
 	{
-		for (b = 0; b < 5; b++)
+		for (a = 0; a < 5; a++)
 		{
-			if (s[a] == small_letters[b] || s[a] == capital_letters[b])
-				s[a] = leet_style[b];
+			if (s[b] == small_letters[a] || s[b] == capital_letters[a])
+				s[b] = leet_style[a];
 		}
-		a++;
+		b++;
 	}
 
 	return (s);
