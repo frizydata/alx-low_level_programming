@@ -11,7 +11,7 @@ char *leet(char *s)
 	int a, b = 0;
 	int small_letters[] = {97, 101, 111, 116, 108};
 	int capital_letters[] = {65, 69, 79, 84, 76};
-	int leet_style[] = {52,51,48, 55, 49};
+	int leet_style[] = {52, 51, 48, 55, 49};
 
 	while (s[a] != '\0')
 	{
