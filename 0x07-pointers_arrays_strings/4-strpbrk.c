@@ -1,4 +1,4 @@
-#include "maim.h"
+#include "main.h"
 /**
  * _strpbrk - Function that searches a string for any of a set of bytes.
  * @s: Pointer to input string
@@ -24,6 +24,6 @@ char *_strpbrk(char *s, char *accept)
 		}
 		i++;
 	}
-	
+
 	return ('\0');
 }
