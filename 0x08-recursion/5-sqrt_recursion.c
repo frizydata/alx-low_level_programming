@@ -19,7 +19,7 @@ int raised_power(int n, int i)
 			return (-1);
 		}
 	}
-	return (0 + raised_power(n, c + 1));
+	return (0 + raised_power(n, i + 1));
 }
 
 /**
