@@ -3,10 +3,10 @@
 #include <ctype.h>
 
 /**
- * main - adds positive numbers
- * @argc: number of command line argument
- * @argv: array that contains the program command line arguments
- * Return: sum of positive number
+ * main - a program that adds positive numbers
+ * @argc: argument counter
+ * @argv: array of strings
+ * Return: the sum of the positive numbers
  */
 
 int main(int argc, char *argv[])
@@ -17,14 +17,10 @@ int main(int argc, char *argv[])
 	{
 		for (j = 0; argv[i][j] != '\0'; j++)
 		{
-			if (!isdigit(argv[i][j]))
-			{
-				printf("Error\n");
-				return (1);
-			}
+			printf("Error\n");
+			return (1);
 		}
-		add += atoi(argv[i]);
 	}
-	print("%d\n", add);
+	printf("%d\n", add);
 	return (0);
 }
