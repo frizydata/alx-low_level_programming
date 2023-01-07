@@ -3,8 +3,8 @@
 
 /**
  * main - multiplies two numbers as int
- * @argc: 
- * @argv:
+ * @argc: number of command line argument
+ * @argv: array that ci=ontains the program command line argument
  * Return: Result of multiplication, Error and 1 if argument not equal to two
  */
 
