@@ -73,5 +73,5 @@ char **strtow(char *str)
 
 	matrix[k] = NULL;
 
-	return (mattix);
+	return (matrix);
 }
