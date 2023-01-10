@@ -1,7 +1,6 @@
 #include <stdlib.h>
 #include "main.h"
 /**
- *
  * **alloc_grid - creates a two dimensional array of ints
  * @width: width of the matrix
  * @height: height of the matrix
