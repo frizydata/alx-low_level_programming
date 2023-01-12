@@ -11,41 +11,38 @@
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-	unsigned int l1, l2, i, j;
-	*str;
+	char *sout;
+	unsigned int ls1, ls2, lsout, i;
 
-	/*treat NULL as empty string*/
 	if (s1 == NULL)
 		s1 = "";
+	
 	if (s2 == NULL)
 		s2 = "";
 
-	l1 = l2 = 0;
-	/*length of both s1 & s2 respectively*/
-	while (s1[l1] != '\0')
-		l1++;
-	while (s2[l2] != '\0')
-		l2++;
+	for (ls1 = 0; s1[ls1] != '\0'; ls1++)
+		;
 
-	/*set n to length of s2*/
-	if (n >= s2)
-		n = l2;
+	for (ls2 = 0; s2[ls2] != '\0'; ls2++)
+		;
 
-	str = (char *) malloc((l1 + n + 1) * sizeof(char));
-	if (str == NULL)
+	if (n > ls2)
+		n = ls2;
+
+	lsout = ls1 + n;
+
+	sout = malloc(lsout + 1);
+
+	if (sout == NULL)
 		return (NULL);
 
+	for (i = 0; i < lsout; i++)
+		if (i < ls1)
+			sout[i] = s1[i];
+		else
+			sout[i] = s2[i - ls1];
 
-	/*add s1 to str*/
-	for (i = 0; s1[i] != '\0'; i++)
-		str[i] = s1[i];
-	/*add s2 n bytes to str*/
-	for (j = 0; j < n && s2[j] != '\0'; j++)
-	{
-		str[i] = s2[j];
-		i++;
-	}
+	sout[i] = '\0';
 
-	str[i] = '\0';
-	return (str);
+	return (sout);
 }
