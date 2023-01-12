@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * malloc_checked - Allocates memory using malloc
+ * *malloc_checked - Allocates memory using malloc
  * @b: Amount of bytes
  * Return: Pointer to allocated memory
  */
@@ -11,7 +11,7 @@ void *malloc_checked(unsigned int b)
 {
 	char *n;
 
-	n = malloc(b);
+	n = malloc(b)i;
 
 	if (n == NULL)
 		exit(98);
