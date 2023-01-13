@@ -80,7 +80,7 @@ void multiply(char *s1, char *s2)
 		{
 			s_digit = s2[l2] - '0';
 			res += ptr[l2 + l1 + 1] + (f_digit * s_digit);
-			ptr[l1 + l2 + 1] = res % 10;res /= 10;
+			ptr[l1 + l2 + 1] = res % 10;
 			res /= 10;
 		}
 		if (res)
