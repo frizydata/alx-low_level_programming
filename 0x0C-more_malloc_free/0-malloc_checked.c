@@ -9,7 +9,7 @@
 
 void *malloc_checked(unsigned int b)
 {
-	char *n;
+	void *n;
 
 	n = malloc(b);
 
