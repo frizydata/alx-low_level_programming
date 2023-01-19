@@ -10,6 +10,7 @@ int op_add(int a, int b)
 	return (a + b);
 }
 
+
 /**
  * op_sub - gets the difference of @a and @b
  * @a: input 1

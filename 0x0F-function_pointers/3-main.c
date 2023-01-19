@@ -8,6 +8,7 @@
  * Description: Program that takes 4 arguments where 2 are
  *		int variables plus an operator to perform
  *		a function between the two numbers
+ *		
  *		Usage: ./calc num1 operator num2
  *			|     |       |     |_ argv[3]
  *			|     |       |_ argv[2]
